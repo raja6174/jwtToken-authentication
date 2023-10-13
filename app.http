@@ -1,0 +1,25 @@
+GET http://localhost:3000/books/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImtheWExNDMiLCJpYXQiOjE2OTcxNzUxMDJ9.wlBlvIbaOZRLsxfrVOwOdD1032IcyQprpmSQ2wuq87I
+
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+    "name": "Raja",
+    "username": "raja143",
+    "password": "raja1234",
+    "gender": "Male",
+    "location": "Kakinada" 
+}
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username": "kaya143",
+    "password": "raja1234"
+}
